@@ -1,0 +1,347 @@
+<div>
+  <div class="row">
+    <!-- <div class="col-md-12"> <h3>Aliabhatt</h3></div> -->
+    <div class="col-md-8 ">
+     
+      <P class="top-nav-total-txt">TOTAL CELEBRITIES</P>
+      <span class="top-nav-total-price"> 430</span>
+    </div>
+    <div class="col-md-4 top_na_from_to">
+        <label for="dateofbirth">From</label>
+  <input type="date" name="dateofbirth" id="dateofbirth">
+  <label for="dateofbirth">To</label>
+  <input type="date" name="dateofbirth" id="dateofbirth">
+    </div>
+    <div  class="clearfix"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3">
+      <div class="card">
+          <div class="row">
+              <div class="col-md-8">
+               <p class="celebrity_voice_calls">PENDING APPROVALS</p>
+               <p class="celebrity_voice_calls_price">12</p>
+               <!-- <span class="badge badge-pill badge-success">+15%</span>
+               <span class="decrease_txt">Increse from 6 months</span> -->
+              </div>
+              <div class="col-md-4">
+                <div class="celebrity_icons">
+                    <img src="../../../src/img/envelope.png" alt="title">
+                    <!-- <i class="fa fa-video-camera" aria-hidden="true"></i> -->
+                </div>
+               
+              </div>
+             </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <div class="card">
+          <div class="row">
+         <div class="col-md-8">
+          <p class="celebrity_voice_calls">APPROVED APPROVALS</p>
+          <p class="celebrity_voice_calls_price"> 310</p>
+          <!-- <span class="badge badge-pill badge-success">+15%</span>
+          <span class="decrease_txt">increase from 6 months</span> -->
+         </div>
+         <div class="col-md-4">
+           <div class="celebrity_icons">
+              <img src="../../../src/img/envelope-open.png" alt="title">
+              <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+           </div>
+          
+         </div>
+        </div>
+        </div>
+      </div>
+  
+      <div class="col-sm-6 col-lg-3">
+          <div class="card ">
+              <div class="row">
+                  <div class="col-md-8">
+                   <p class="celebrity_voice_calls">DENIED APPROVALS</p>
+                   <p class="celebrity_voice_calls_price"> 120</p>
+                   <!-- <span class="badge badge-pill badge-success">+15%</span>
+                   <span class="decrease_txt">Increse from 6 months</span> -->
+                  </div>
+                  <div class="col-md-4">
+                    <div class="celebrity_icons">
+                      <img src="../../../src/img/envelope-open.png" alt="title">
+                        <!-- <i class="fa fa-comment" aria-hidden="true"></i> -->
+                    </div>
+                   
+                  </div>
+                 </div>
+          </div>
+        </div>
+  </div>
+  
+<!--     
+  <div class="row">
+    <div class="col-md-6">
+    <span class="celebrities_number_txt">128 celebrities</span>
+    <div class="search">
+        <span class="fa fa-search"></span>
+        <input placeholder="Search a celebrity">
+      </div>
+    </div>
+    <div class="col-md-6 text-right">
+      <span class="celibrity_filter_span"><i class="fa fa-filter" aria-hidden="true"></i> &nbsp; &nbsp; Filter</span>
+      <button class="btn btn-warning">+Add celebrity</button>
+    </div>
+  </div> -->
+  <div class="spacer-large"></div>
+ 
+  <div class="col-md-8">
+
+  </div>
+
+
+  <div class="row">
+    <!-- <div class="col-md-3">
+      <div class="col-md-12">
+          <button type="button" class="btn btn-warning btn-sm pull-right edit_button">EDIT</button>
+      </div>
+        
+        <div class="col-md-12">
+
+            <img src="../../../src/img/alia.jpg" class="celebrity_single_pic" alt="">
+            <h3 class="text-center celebrity_single_name">Alia Bhatt</h3>
+            <h5 class="text-center celebrity_single_designation">Bollywood Actresss</h5>
+            <p class="celebrity_single_about">It is very easy to use reach top. But it is an uphill task to maintain it.</p>
+            <p class="celebrity_single_contact-txt">CONTACT</p>
+           <span class="celebrity_sigle_contact_details_sub">+91 8528048330</span> <span class="celebrity_sigle_contact_details_sub">alia@gmaiil.com</span>
+
+           <p class="celebrity_sigle_contact_memberence_txt">MEMBER SINCE</p>
+           <p class="celebrity_sigle_contact_memberence_date">12-30-2017</p>
+           <p class="celebrity_social_icons">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+           </p>
+
+        </div>
+
+    </div> -->
+    <div class="col-md-12">
+
+
+<tabset id="tabset-custom">
+    
+  <tab heading="Pending Approvals">
+      <table class="table">
+          <thead>
+            <tr>
+
+              <th>NAME</th>
+              <th>EMAIL</th>
+              <th>PHONE</th>
+              <th>ACTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+         
+              <td >
+                <ul class="list-inline" >
+                  <li class="celebrity_img_list"><img src="../../../src/img/girl.png" class="img-avatar" alt=""></li>
+                  <li class="celebrity_name_list">Alia Bhatt</li>
+                </ul>
+        
+              </td>
+              <td>alia@gmail.com</td>
+              <td>+91 8528048330 </td>
+              <td>
+               
+                   <button type="button" class="btn btn-success approve_btn"  routerLinkActive="active"  (click)="change()">Approve</button>
+                    <button type="button" class="btn btn-danger reject_btn">Reject</button>
+              
+                
+              </td>
+            </tr>
+            <tr>
+             
+                <td>
+                    <ul class="list-inline">
+                      <li class="celebrity_img_list"><img src="../../../src/img/girl.png" class="img-avatar" alt=""></li>
+                      <li class="celebrity_name_list">Juhi Chawla</li>
+                    </ul>
+            
+                  </td>
+                  <td>alia@gmail.com</td>
+                  <td>+91 8528048330 </td>
+                  <td>
+                      <button type="button" class="btn btn-success approve_btn">Approve</button>
+                      <button type="button" class="btn btn-danger reject_btn">Reject</button>
+                  </td>
+            </tr>
+            <tr>
+           
+                <td>
+                    <ul class="list-inline">
+                      <li class="celebrity_img_list"><img src="../../../src/img/girl.png" class="img-avatar" alt=""></li>
+                      <li class="celebrity_name_list">Kriti Sanon</li>
+                    </ul>
+            
+                  </td>
+                  <td>alia@gmail.com</td>
+                  <td>+91 8528048330 </td>
+                  <td>
+                      <button type="button" class="btn btn-success approve_btn">Approve</button>
+                      <button type="button" class="btn btn-danger reject_btn">Reject</button>
+                  </td>
+            </tr>
+            <tr>
+     
+                <td>
+                    <ul class="list-inline">
+                      <li class="celebrity_img_list"><img src="../../../src/img/girl.png" class="img-avatar" alt=""></li>
+                      <li class="celebrity_name_list">Dia Mirza</li>
+                    </ul>
+            
+                  </td>
+                  <td>alia@gmail.com</td>
+                  <td>+91 8528048330 </td>
+                  <td>
+                      <button type="button" class="btn btn-success approve_btn">Approve</button>
+                      <button type="button" class="btn btn-danger reject_btn">Reject</button>
+                  </td>
+            </tr>
+            <tr>
+
+                <td>
+                    <ul class="list-inline">
+                      <li class="celebrity_img_list"><img src="../../../src/img/girl.png" class="img-avatar" alt=""></li>
+                      <li class="celebrity_name_list">Alia Bhatt</li>
+                    </ul>
+            
+                  </td>
+                  <td>alia@gmail.com</td>
+                  <td>+91 8528048330 </td>
+                  <td>
+                      <button type="button" class="btn btn-success approve_btn">Approve</button>
+                      <button type="button" class="btn btn-danger reject_btn">Reject</button>
+                  </td>
+            </tr>
+          </tbody>
+        </table>
+  </tab>
+  <tab heading="Approved Approvals">
+      <!-- <table class="table">
+          <thead>
+            <tr>
+              <th>NAME</th>
+              <th>DURATION</th>
+              <th>DATE</th>
+              <th>MONEY EARNED</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rajesh Kumar</td>
+              <td class="celebrity_video_call_time">10m 47s </td>
+              <td class="celebrity_video_call_time">23-12-2017</td>
+              <td> &#x20b9; 44</td>
+
+            </tr>
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 44</td>
+            </tr>
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 44</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 44</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 44</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 44</td>
+            </tr>
+          </tbody>
+        </table> -->
+  </tab>
+  <tab heading="Denied Approvals">
+      <!-- <table class="table">
+          <thead>
+            <tr>
+              <th>NAME</th>
+              <th>DURATION</th>
+              <th>DATE</th>
+              <th>MONEY EARNED</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rajesh Kumar</td>
+              <td class="celebrity_video_call_time">10m 47s </td>
+              <td class="celebrity_video_call_time">23-12-2017</td>
+              <td> &#x20b9; 05</td>
+
+            </tr>
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 03</td>
+            </tr>
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 01</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 03</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 01</td>
+            </tr>
+
+            <tr>
+                <td>Rajesh Kumar</td>
+                <td class="celebrity_video_call_time">10m 47s </td>
+                <td class="celebrity_video_call_time">23-12-2017</td>
+                <td> &#x20b9; 02</td>
+            </tr>
+          </tbody>
+        </table> -->
+  </tab>
+</tabset>
+
+        
+    </div>
+
+  </div>
+  
+  </div>
+
+
+  

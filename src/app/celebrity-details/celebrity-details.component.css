@@ -1,0 +1,382 @@
+body{
+    color: black !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.top-nav-total-txt{
+    width: 15%;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600; 
+    color: #818181;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.top-nav-total-price{
+    font-size: 20px;
+    font-weight: 800;
+    color: #3d3d3d;
+}
+.top_na_from_to{
+    text-align: right;
+}
+.celebrity_icons{
+    width: 80px;
+    height: 80px;
+    background: #fffa51;
+    border-radius: 50%;
+    padding: 27px 30px;
+    border: 1px solid #e0dede;
+
+}
+.celebrity_icons .fa{
+    font-size: 23px;
+    font-weight: 700;
+
+} 
+.celebrity_voice_calls{
+    font-weight: 500;
+    color: #a5a5a5;
+}
+.celebrity_voice_calls_price{
+    font-size: 18px;
+    color: #434343;
+    font-weight: 800;
+}
+.decrease_txt{
+    color: #434343;
+    font-weight: 500;
+}
+.card {
+    margin-bottom: 1.5rem;
+    padding: 12px 20px;
+}
+.row{
+    padding: 15px;
+}
+
+.celebrities_number_txt{
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    color: #919191;
+}
+.celibrity_filter_span{
+    padding: 7px 17px;
+    border: 2px solid #e6dbdb;
+    border-radius: 6px;
+    margin-right: 22px;
+}
+.btn-warning {
+    color: #272222;
+    background-color: #fffa51;
+    border-color: #f8cb00;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 35px;
+}
+.img-avatar{
+    background: black;
+    width: 45px;
+    height: 45px;
+}
+.celebrity_img_list{
+    float: left;
+    padding-right: 20px;
+}
+
+.celebrity_name_list{
+    color: black;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.edit_button{
+    color: #020202;
+    background-color: #ffffff;
+    padding: 4px 18px;
+    border: 2px solid #fffa51; 
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.celebrity_single_pic{
+    
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    border: 5px solid #f3ee40;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: block;
+}
+.celebrity_single_name{
+    padding-top: 20px;
+}
+.celebrity_single_designation{
+    padding-top: 10px;
+    color: #8e8e8e;
+}
+.celebrity_single_about{
+    font-size: 18px;
+    color: #757474;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.celebrity_single_contact-txt{
+    font-size: 18px;
+    color: #949494;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.celebrity_sigle_contact_details_sub{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+.celebrity_sigle_contact_memberence_txt{
+font-size: 18px;
+font-weight: 600;
+color: #868686;
+margin-top: 25px;
+}
+.celebrity_sigle_contact_memberence_date{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.celebrity_social_icons{
+    padding-top: 15px;
+}
+.celebrity_social_icons .fa{
+    padding: 10px 20px;
+    font-size: 36px;
+
+}
+.celebrity_social_icons .fa-facebook{
+    padding: 0px;
+    color: #4467b0;
+    padding-right: 20px;
+
+}
+.celebrity_social_icons .fa-twitter{
+  
+    color: #76a9ea;
+}
+.celebrity_social_icons .fa-instagram{
+
+    color: #b01b86;
+
+}
+.celebrity_social_icons .fa-google-plus{
+    color: rgb(249, 63, 45);
+
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #cfd8dc;
+    border-top: 0px;
+    color: #cccccc;
+    font-weight: 500;
+}
+
+.table td {
+ 
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.table th, .table td {
+    border-top: 1px solid #cfd8dc;
+    padding: 30px 20px;
+}
+.celebrity_video_call_time{
+    color: #a0a0a0 !important;
+}
+
+/* date picker css */
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  90% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+ 
+  label {
+    display:inline-block;
+  }
+  input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 150px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #989898;
+  }
+
+  /* css for search bar with icon */
+
+  .search {
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .search input {
+    width: 250px;
+    height: 36px;
+    background: #ffffff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #fff8f8 inset;
+  }
+  
+  .search input { text-indent: 32px;}
+  .search .fa-search { 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .pc-tab ul li.active label{
+    background: #f9f7d5;
+    border-top: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+/* css for tab pills */
+.spacer-large{
+    height: 90px;
+}
+
+/* Component Needs */
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+.pc-tab > input,
+.pc-tab section > div {
+  display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3 {
+  display: block;
+}
+
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2,
+#tab3:checked ~ nav .tab3 {
+  color: red;
+}
+
+
+.pc-tab {
+  width: 100%;
+  margin: 0 auto;
+}
+.pc-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pc-tab ul li label {
+  font-family: "Raleway";
+  float: left;
+  border: 2px solid #ddd;
+  border-bottom: 0;
+  background: #f9f7d5;
+  font-size: 20px;
+  color: black;
+  padding: 15px 152px !important;
+  border-top: none;
+  border-right: none;
+}
+.pc-tab ul li label:hover {
+  background: #f9f7d5;
+  border-top: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+}
+.pc-tab ul li label:active {
+  background: #ffffff;
+  border-top: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+}
+
+.pc-tab ul li:not(:last-child) label {
+  border-right-width: 0;
+}
+.pc-tab section {
+  font-family: "Droid Serif";
+  clear: both;
+}
+.pc-tab section div {
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-top: 0px;
+  background: #fff;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  color: #444;
+  border-bottom: none;
+  border-right: none;
+}
+.pc-tab section div h2 {
+  margin: 0;
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  color: #34495e;
+}
+
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label,
+#tab3:checked ~ nav .tab3 label {
+  background: white;
+  color: #111;
+  position: relative;
+}
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ffffff;
+  left: 0;
+  bottom: -1px;
+}
+label {
+    display: inline-block;
+    margin-bottom:0px;
+ 
+}
+
+.top_na_from_to label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #989898;
+}
+#left_dfb{
+    margin-right: 20px;
+}
+/* tabs new css start */
+
+
+/* tabs new css start */
